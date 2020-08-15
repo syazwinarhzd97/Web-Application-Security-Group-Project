@@ -23,8 +23,8 @@ This project is basically about the system that manage the rescue shelter to hel
 * Authenticate the password by using strong hash which is SHA-256 encryption and store the password in the MySQL. (Syazwina)
 
 3. **Authorization**
-* There are two levels of authorization; User, and Administrator
-* Users are only allowed to view the data of the cats while Administrators are allowed to make edits on the data
+* There are two levels of authorization; User, and Administrator (Munirah)
+* Users are only allowed to view the data of the cats while Administrators are allowed to make edits on the data (Munirah)
 
 4. **XSS and CSRF Prevention**
 
