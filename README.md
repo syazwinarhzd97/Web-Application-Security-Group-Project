@@ -18,7 +18,7 @@ This project is basically about the system that manage the rescue shelter to hel
 * Browser will display error message when username and password are not matched with the record in the database. (Syazwina)
 
 2. **Authentication**
-* Authenticate the password by using strong hash which is SHA-256 encryption. (Syazwina)
+* Authenticate the password by using strong hash which is SHA-256 encryption and store the password in the MySQL. (Syazwina)
 
 3. **Authorization**
 
