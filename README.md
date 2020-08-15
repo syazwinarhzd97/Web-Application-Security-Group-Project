@@ -4,10 +4,10 @@
 * Nur Syazwina binti Ruhaizad 1717470
 
 ## Title
-### Aurora Cat Management System
+Aurora Cat Management System
 
 ## Introduction
-### This project is basically about the system that manage the rescue shelter to help the stray cats. One of the main purposes is I want to build a system that can manage the rescue shelter for stray cats with the objectives to rescue, treat (if needed), neutered and find adopters for the cats. This system is supervised by the administrators which all the details of the cat will be registered and keep ongoing updated. Within this user-friendly system, the rescue shelter can be managed very well and systematically.  
+This project is basically about the system that manage the rescue shelter to help the stray cats. One of the main purposes is I want to build a system that can manage the rescue shelter for stray cats with the objectives to rescue, treat (if needed), neutered and find adopters for the cats. This system is supervised by the administrators which all the details of the cat will be registered and keep ongoing updated. Within this user-friendly system, the rescue shelter can be managed very well and systematically.  
 
 ## Objective of the enhancement
 * To prevent sensitive information from being accessed and stolen by hackers.
