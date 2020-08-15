@@ -24,7 +24,7 @@ This project is basically about the system that manage the rescue shelter to hel
 
 4. **XSS and CSRF Prevention**
 
-5. **Database Security Principles (Syazwina)**
+5. **Database Security Principles** (Syazwina)
 * Parameterized Queries is used to escape input and help to prevent SQL injection attacks. (Syazwina)
 * Separate Accounts for Separate Roles. Create a new database user and assign a separate user for each role. Create two admin and give permission to perform task for that role only. Set the permission and right for each database user to only what that role requires. Grant privileges to specified database users to perform any action to schema. (Syazwina)
 * Stored procedure. Grant only the rights to execute stored procedure for application database user. Give the permission to execute stored procedure for database user can limit the potential damage from any SQL injection attack against the database. (Syazwina)
