@@ -1,0 +1,63 @@
+body {
+     background-color: #48C9B0;
+}
+
+h2 {
+    color: white;
+    font-family: Montserrat;
+}
+
+p {
+    font-family: Montserrat;
+}
+
+div {
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+input[type=submit] {
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #48C9B0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+  //  background-color: #48C9B0;
+    color: blue;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    opacity: 0.7;
+}
+input[type=reset] {
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #48C9B0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    //background-color: #48C9B0;
+    color: blue;
+    cursor: pointer;
+}
+input[type=reset]:hover {
+    opacity: 0.7;
+}
