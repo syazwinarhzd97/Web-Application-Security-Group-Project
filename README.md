@@ -2,6 +2,7 @@
 
 ## Nur Group Members
 * Nur Syazwina binti Ruhaizad 1717470
+* Munirah binti Mohd Aziz 1716274
 
 ## Title
 Aurora Cat Management System
@@ -11,6 +12,7 @@ This project is basically about the system that manage the rescue shelter to hel
 
 ## Objective of the enhancement
 * To prevent sensitive information from being accessed and stolen by hackers. (Syazwina)
+* To prevent the server from being sabotaged by attackers. (Munirah)
 
 ## Web Application Security Enhancement
 1. **Input Validation**
@@ -21,6 +23,9 @@ This project is basically about the system that manage the rescue shelter to hel
 * Authenticate the password by using strong hash which is SHA-256 encryption and store the password in the MySQL. (Syazwina)
 
 3. **Authorization**
+* There are two levels of authorization:
+** User
+** Administrator
 
 4. **XSS and CSRF Prevention**
 
