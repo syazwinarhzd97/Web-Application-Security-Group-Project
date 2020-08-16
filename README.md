@@ -14,6 +14,7 @@ This project is basically about the system that manage the rescue shelter to hel
 ## Objective of the enhancement
 * To prevent sensitive information from being accessed and stolen by hackers. (Syazwina)
 * To prevent the server from being sabotaged by attackers. (Munirah)
+* To ensure that we  have data quality, that they are both correct and useful and to prevent the server from xss and csrf attacks. (Abrar)
 
 ## Web Application Security Enhancement
 1. **Input Validation**
@@ -28,6 +29,11 @@ This project is basically about the system that manage the rescue shelter to hel
 * guests are only allowed to view the data of the cats while admins are allowed to make edits on the data (Munirah)
 
 4. **XSS and CSRF Prevention**
+* One method of defending against XSS is checking the user’s inputs against a whitelist, or known as sanitizing user inputs. (Abrar)
+* escaping user inputs, which means replacing certain characters with the escape sequence, before they are passed to the HTML parser. (Abrar)
+* The server, for each action, demands a secret token (called a CSRF token), which is sent to the browser only when the user browses to the action. (Abrar)
+* Maintains state that associates each user’s CSRF token with her session ID; (Abrar)
+* On receiving a request for action, checks that the supplied CSRF token indeed matches that of the user’s session. (Abrar)
 
 5. **Database Security Principles** (Syazwina)
 * Parameterized Queries is used to escape input and help to prevent SQL injection attacks. (Syazwina)
