@@ -24,8 +24,8 @@ This project is basically about the system that manage the rescue shelter to hel
 * Authenticate the password by using strong hash which is SHA-256 encryption and store the password in the MySQL. (Syazwina)
 
 3. **Authorization**
-* There are two levels of authorization; User, and Administrator (Munirah)
-* Users are only allowed to view the data of the cats while Administrators are allowed to make edits on the data (Munirah)
+* There are two levels of authorization; guest, and admin (Munirah)
+* guests are only allowed to view the data of the cats while admins are allowed to make edits on the data (Munirah)
 
 4. **XSS and CSRF Prevention**
 
@@ -56,3 +56,5 @@ https://www.quackit.com/mysql/workbench/users_and_privileges.cfm
 https://happycoding.io/tutorials/java-server/sanitizing-user-input
 9. Netsparker Security Team (2019). How to Disable Directory Listing on Your Web Server. Retrieved from
 https://www.netsparker.com/blog/web-security/disable-directory-listing-web-servers/
+10. JSP - Security. (n.d.). Retrieved August 16, 2020, from 
+https://www.tutorialspoint.com/jsp/jsp_security.htm
